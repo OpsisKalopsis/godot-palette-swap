@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Sprites/test-image.png" type="Texture" id=1]
+[ext_resource path="res://Shaders/Palette-swap.shader" type="Shader" id=2]
+
+[sub_resource type="ShaderMaterial" id=2]
+shader = ExtResource( 2 )
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+material = SubResource( 2 )
+position = Vector2( 163.5, 173 )
+scale = Vector2( 10, 10 )
+texture = ExtResource( 1 )
