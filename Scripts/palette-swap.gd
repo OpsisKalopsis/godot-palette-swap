@@ -3,21 +3,23 @@ extends Sprite
 
 var imageTexture
 export var isInit:bool = false
-export var color_118:Color
-export var color_144:Color
+export var color_195:Color
+export var color_130:Color
+export var color_89:Color
+export var color_55:Color
 
 func set_palette():
 	var dynImage = Image.new()
 	imageTexture = ImageTexture.new()
 	dynImage.create(256,1,false,Image.FORMAT_RGBA8)
 	dynImage.lock()
-	dynImage.set_pixel(118,0,color_118)
-	dynImage.set_pixel(144,0,color_144)
+	dynImage.set_pixel(195,0,color_195)
+	dynImage.set_pixel(130,0,color_130)
+	dynImage.set_pixel(89,0,color_89)
+	dynImage.set_pixel(55,0,color_55)
 	
 	dynImage.unlock()
-	print(color_118)
-	imageTexture.create_from_image(dynImage)
-	print(imageTexture.FLAG_FILTER)
+	imageTexture.create_from_image(dynImage, 0)
 	material.set_shader_param("replace", imageTexture)
 	
 	

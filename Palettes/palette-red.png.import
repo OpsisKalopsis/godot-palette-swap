@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/palette-one-brown.png-7f81f3038991a1647ba79819ba929f1e.stex"
+path="res://.import/palette-red.png-f2ab7cab65684d32a080a807594d912a.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Palettes/palette-one-brown.png"
-dest_files=[ "res://.import/palette-one-brown.png-7f81f3038991a1647ba79819ba929f1e.stex" ]
+source_file="res://Palettes/palette-red.png"
+dest_files=[ "res://.import/palette-red.png-f2ab7cab65684d32a080a807594d912a.stex" ]
 
 [params]
 
@@ -20,7 +20,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=false
+flags/filter=true
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
